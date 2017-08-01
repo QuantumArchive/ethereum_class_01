@@ -36,6 +36,8 @@ ENS domains.
 # What tools will we need
 - NodeJS
 - Geth
+- Truffle and Testrpc
+- Metamask
 - A text editor (atom, sublime, jetbrains)
 
 # Install npm for your system
@@ -45,11 +47,6 @@ https://nodejs.org/en/download/current/
 https://www.ethereum.org/cli
 
 _Note: I use homebrew on a Mac to install npm, geth, and testrpc_
-
-# [BONUS] Install truffle and testrpc:
-`npm install -g truffle ethereumjs-testrpc`
-
-At this point you are ready to go.
 
 # Make your own dang chain.
 
@@ -67,6 +64,14 @@ Genesis block JSON file
   "alloc": {}
 }`
 
+# A simple smart contract to forget
+ simple.sol
+
+# Check Time
+
+# Install truffle and testrpc:
+`npm install -g truffle ethereumjs-testrpc`
+
 # Metacoin to the MOON!
 
 ![To the Moon](https://ethereum.org/images/moon-rocket@2x.png)
@@ -75,35 +80,10 @@ Genesis block JSON file
 
 # More Metacoin
 
-From there, you can run `truffle compile`, `truffle migrate` and `truffle test` to compile your contracts, deploy those contracts to the network, and run their associated unit tests
+From there, you can run `truffle compile`, 
+`truffle migrate` and `truffle test` to compile your contracts, 
+deploy those contracts to the network, and run their associated unit tests
 
-# Resources
-
-https://medium.com/level-k/get-started-with-building-ethereum-dapps-and-smart-contracts-3e726ec9a02f
-
-https://alanbuxton.wordpress.com/2017/07/19/first-steps-with-ethereum-private-networks-and-smart-contracts-on-ubuntu-16-04/
-
-https://www.ethereum.org/token
-
-https://steemit.com/steemit/@belidged/a-guide-on-how-to-ico
-
-About the Swarm
-https://swarm-guide.readthedocs.io/en/latest/introduction.html
-
-Whisperin about
-https://github.com/ethereum/go-ethereum/wiki/Whisper-Usage
-https://github.com/status-im/status-go/blob/b3a56eb00b97d853edcbcb4fb2cf8803fe7a0370/static/tests/whisper.js
-
-Embark
-https://github.com/iurimatias/embark-framework
-
-Truffle
-http://truffleframework.com/boxes/react
-
-Dapp dev
-https://dickolsson.com/building-dapps-on-ethereum-part-1-overview/
-
-https://dapps.ethercasts.com/
 
 
 
