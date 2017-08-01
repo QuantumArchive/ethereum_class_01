@@ -18,14 +18,14 @@ More transactions = more gas
 
 # A side note 
 Metamask - Awesome browser plugin [light wallet]
-![metamask](https://metamask.io/img/metamask.png)
+
 
 web3.js - A way to bridge you app from web 2.0 to web 3.0
 
 # Example DAPP 
 ENS domains.
 [http://ens.domains/](http://ens.domains/)
-![ens](http://ens.domains/img/ens.svg)
+
 
 # What are we learning today?
 - Basic installations 
