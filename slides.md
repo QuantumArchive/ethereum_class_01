@@ -81,6 +81,8 @@ From there, you can run `truffle compile`,
 `truffle migrate` and `truffle test` to compile your contracts, 
 deploy those contracts to the network, and run their associated unit tests
 
+# Class notes with links
+https://github.com/spdz/ethereum_class_01/blob/master/notes.md
 
 
 
