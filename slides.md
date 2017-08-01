@@ -1,7 +1,6 @@
 # Introduction
 
 Ethereum
-![logo](https://www.ethereum.org/images/logos/ETHEREUM-LOGO_LANDSCAPE_Black.png)
 
 # Smart Contracts?
  > Smart contracts are computer protocols intended to facilitate, 
@@ -12,19 +11,19 @@ https://en.m.wikipedia.org/wiki/Smart_contract
 
 # Some thoughts
 
-a call: read data [no cost]
-a transaction: write (change network state) [cost gas]
+- a call: read data [no cost]
+- a transaction: write (change network state) [cost gas]
 
 More transactions = more gas
 
 # A side note 
 Metamask, and web3.js
-![metamask](https://metamask.io/img/metamask.png)
+
 
 # Example DAPP 
 ENS domains.
 [http://ens.domains/](http://ens.domains/)
-![ens](http://ens.domains/img/ens.svg)
+
 
 # What are we learning today?
 - Basic installations 
@@ -73,8 +72,6 @@ Genesis block JSON file
 `npm install -g truffle ethereumjs-testrpc`
 
 # Metacoin to the MOON!
-
-![To the Moon](https://ethereum.org/images/moon-rocket@2x.png)
 
 `truffle init webpack`
 
