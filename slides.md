@@ -35,9 +35,11 @@ ENS domains.
 # What tools will we need
 - NodeJS
 - Geth
+- A text editor (atom, sublime, jetbrains)
+[Bonus Installs]
 - Truffle and Testrpc
 - Metamask
-- A text editor (atom, sublime, jetbrains)
+
 
 # Install npm for your system
 https://nodejs.org/en/download/current/
@@ -68,12 +70,15 @@ Genesis block JSON file
 
 # Check Time
 
+
 # Install truffle and testrpc:
+ Documentation: http://truffleframework.com/docs
+
 `npm install -g truffle ethereumjs-testrpc`
 
 # Metacoin to the MOON!
 
-`truffle init webpack`
+`truffle unbox`
 
 # More Metacoin
 
