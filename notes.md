@@ -1,8 +1,8 @@
 # Introduction
 
 What is Ethereum?
-- 3 keys
-    - Different Blockchain 
+- 3 keys to take away
+    - It is a completely Different Blockchain 
     - Featuring Smart Contracts run on the EVM
     - Provides ETH and GAS
 
@@ -17,7 +17,6 @@ vending machine analogy
 
 - a call: read data from the ledger [no cost]
 - a transaction: write data (change network state) [cost gas]
-
 - More transactions = more gas
 
 # A side note 
@@ -36,7 +35,8 @@ ENS domains.
 - Basic installations 
 - how to create a private ethereum chain 
 - how to setup a dev environment 
-- your first smart contract 
+- A starter smart contract 
+- Metacoin from truffle framework
 
 # What tools will we need
 - Npm
@@ -78,7 +78,7 @@ truffle is a framework that makes it easy for you to develop dapps
 and post the contracts to the blockchain.
 http://truffleframework.com/boxes/react
 
-testrpc is a nifty nodeapp that provides a local dev chain.
+testrpc is a nifty nodeapp that provides a local dev ethereum chain.
 https://github.com/ethereumjs/testrpc
 
 At this point you are ready
