@@ -9,18 +9,23 @@ What is Ethereum?
 # Smart Contracts?
 vending machine analogy
 
+- User puts in a coin
+- User makes selection
+- Vending machine delivers product (renders change if needed)
+
 # Some thoughts
 
-a call: read data from the ledger [no cost]
-a transaction: write data (change network state) [cost gas]
+- a call: read data from the ledger [no cost]
+- a transaction: write data (change network state) [cost gas]
 
-More transactions = more gas
+- More transactions = more gas
 
 # A side note 
 Metamask - Awesome browser plugin [light wallet]
 
 
 web3.js - A way to bridge you app from web 2.0 to web 3.0
+https://github.com/ethereum/web3.js/tree/master
 
 # Example DAPP 
 ENS domains.

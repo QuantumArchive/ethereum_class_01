@@ -14,7 +14,7 @@ https://en.m.wikipedia.org/wiki/Smart_contract
 - a call: read data [no cost]
 - a transaction: write (change network state) [cost gas]
 
-More transactions = more gas
+- More transactions = more gas
 
 # A side note 
 Metamask, and web3.js
