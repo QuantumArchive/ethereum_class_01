@@ -11,17 +11,13 @@ https://en.m.wikipedia.org/wiki/Smart_contract
 
 # Some thoughts
 
-- a call: read data [no cost]
-- a transaction: write (change network state) [cost gas]
+- A call: read data [no cost]
+- A transaction: write (change network state) [cost gas]
 - More transactions = more gas
-
-# A side note 
-Metamask, and web3.js
 
 # Example DAPP 
 ENS domains.
 [http://ens.domains/](http://ens.domains/)
-
 
 # What are we learning today?
 - Basic installations 
@@ -38,12 +34,14 @@ ENS domains.
 - Truffle and Testrpc
 - Metamask
 
+# A side note
+Metamask and Web3.js
 
 # Install npm for your system
-https://nodejs.org/en/download/current/
+[https://nodejs.org/en/download/current/](https://nodejs.org/en/download/current/)
 
 # Install geth 
-https://www.ethereum.org/cli
+[https://www.ethereum.org/cli](https://www.ethereum.org/cli)
 
 _Note: I use homebrew on a Mac to install npm, geth, and testrpc_
 
@@ -64,7 +62,8 @@ Genesis block JSON file
 }`
 
 # A simple smart contract to forget
- simple.sol
+Do some math 
+`simple.sol`
 
 # Check Time
 
@@ -78,8 +77,6 @@ Documentation: http://truffleframework.com/docs
 `truffle init webpack`
 
 # More Metacoin
-Commands:
-
   Compile:        `truffle compile`
    - Compile code to byte code
   Migrate:        `truffle migrate`

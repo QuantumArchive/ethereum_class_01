@@ -294,4 +294,4 @@ https://dapps.ethercasts.com/
 
 
 # Deckdown
-http://deckdown.org/deck?src=https://raw.githubusercontent.com/spdz/ethereum_class_01/master/slides.md#/
+http://deckdown.org/deck?src=https://raw.githubusercontent.com/spdz/ethereum_class_01/master/slides.md
