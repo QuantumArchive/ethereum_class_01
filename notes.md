@@ -6,6 +6,9 @@ What is Ethereum?
     - Featuring Smart Contracts run on the EVM
     - Provides ETH and GAS
 
+“a single shared computer that is run by the network of users 
+and on which resources are parceled out and paid for by ether.”
+
 # Smart Contracts?
 vending machine analogy
 
@@ -21,7 +24,7 @@ vending machine analogy
 
 # A side note 
 Metamask - Awesome browser plugin [light wallet]
-
+https://metamask.io/
 
 web3.js - A way to bridge you app from web 2.0 to web 3.0
 https://github.com/ethereum/web3.js/tree/master
@@ -171,6 +174,9 @@ simple.sol
 brew tap ethereum/ethereum
 brew install solidity
 
+Compile the code:
+`solc -o . --bin --abi simple.sol`
+
 We can compile the code on our machine, or go to the web
 https://ethereum.github.io/browser-solidity/#version=soljson-v0.4.14+commit.c2215d46.js
 
@@ -224,6 +230,9 @@ OK, so that is a simple contract (function) on the blockchain.
 ---
 
 # Metacoin to the MOON!
+
+_For some reason my gas limit was not working with MetaCoin,_ 
+_so we will be switching to testrpc to demo this._
 
 Start testrpc 
 

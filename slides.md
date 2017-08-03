@@ -13,12 +13,10 @@ https://en.m.wikipedia.org/wiki/Smart_contract
 
 - a call: read data [no cost]
 - a transaction: write (change network state) [cost gas]
-
 - More transactions = more gas
 
 # A side note 
 Metamask, and web3.js
-
 
 # Example DAPP 
 ENS domains.
@@ -29,7 +27,7 @@ ENS domains.
 - Basic installations 
 - How to create a private Ethereum chain 
 - How to setup a dev environment 
-- Your first smart contract 
+- A starter smart contract 
 - Bonus content :)
 
 # What tools will we need
@@ -70,22 +68,27 @@ Genesis block JSON file
 
 # Check Time
 
-
 # Install truffle and testrpc:
- Documentation: http://truffleframework.com/docs
+Documentation: http://truffleframework.com/docs
 
 `npm install -g truffle ethereumjs-testrpc`
 
 # Metacoin to the MOON!
 
-`truffle unbox`
+`truffle init webpack`
 
 # More Metacoin
+Commands:
 
-From there, you can run `truffle compile`, 
-`truffle migrate` and `truffle test` to compile your contracts, 
-deploy those contracts to the network, and run their associated unit tests
-
+  Compile:        `truffle compile`
+   - Compile code to byte code
+  Migrate:        `truffle migrate`
+   - Push to blockchain
+  Build Frontend: `npm run build`
+   - Build the frontend
+  Run Dev Server: `npm run dev`
+   - Run the server
+   
 # Class notes with links
 https://github.com/spdz/ethereum_class_01/blob/master/notes.md
 
