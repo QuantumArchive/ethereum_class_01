@@ -77,14 +77,11 @@ Documentation: http://truffleframework.com/docs
 `truffle init webpack`
 
 # More Metacoin
- - Compile:        `truffle compile`
-   - Compile code to byte code
- - Migrate:        `truffle migrate`
-   - Push to blockchain
- - Build Frontend: `npm run build`
-   - Build the frontend
- - Run Dev Server: `npm run dev`
-   - Run the server
+
+- Compile code to byte code: `truffle compile`
+- Push to blockchain: `truffle migrate`
+- Build the Frontend: `npm run build`
+- Run Dev Server: `npm run dev`
    
 # Class notes with links
 https://github.com/spdz/ethereum_class_01/blob/master/notes.md
